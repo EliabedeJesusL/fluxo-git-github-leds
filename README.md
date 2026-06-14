@@ -1,22 +1,31 @@
-# Atividade - Fluxo Git e GitHub
+## Lista dos Commits Realizados
 
-## Link do Repositório Utilizado
+1. `docs: adiciona planejamento inicial do fluxo git`
+2. `docs: adiciona checklist e reflexao tecnica`
 
-https://github.com/EliabedeJesusL/fluxo-git-github-leds
+## Evidências de Teste, Execução ou Validação
 
-## Nome da Branch Criada
+As seguintes verificações foram realizadas:
 
-feature/documentacao-fluxo-git
+- O comando `git status` foi executado para verificar os arquivos alterados.
+- O arquivo README.md foi conferido no VS Code antes do commit.
+- A branch `feature/documentacao-fluxo-git` foi criada corretamente.
+- Os commits foram realizados com mensagens semânticas.
+- As alterações foram enviadas para o GitHub com `git push`.
+- O Pull Request foi aberto para integrar a branch da atividade à branch `main`.
 
-## Descrição da Demanda
+## Checklist de Code Review
 
-Esta atividade tem como objetivo simular um fluxo completo de versionamento utilizando Git e GitHub, incluindo criação de branch, commits semânticos, envio das alterações para o repositório remoto e abertura de Pull Request.
+- [x] A branch segue um padrão adequado de nomenclatura.
+- [x] Foram realizados pelo menos dois commits semânticos.
+- [x] O README.md contém as informações obrigatórias da atividade.
+- [x] As alterações foram enviadas para o GitHub.
+- [x] O Pull Request possui descrição clara.
+- [x] As alterações foram revisadas antes do merge.
+- [x] Não há arquivos desnecessários no repositório.
 
-A demanda escolhida foi a criação de uma documentação inicial no README.md explicando o fluxo Git utilizado na atividade.
+## Reflexão Técnica Final
 
-## Alterações Realizadas
+Em um projeto real, esse fluxo poderia ser melhorado com a participação de outros desenvolvedores no processo de revisão de código, uso de issues para rastrear demandas, integração com GitHub Projects para organização do fluxo de trabalho e execução de testes automatizados antes da aprovação do Pull Request.
 
-- Criação de uma branch seguindo padrão semântico.
-- Atualização do arquivo README.md.
-- Registro das informações obrigatórias da atividade.
-- Organização das evidências de validação.
+Além disso, seria importante configurar regras de proteção na branch `main`, impedindo commits diretos e exigindo aprovação obrigatória em Pull Requests antes do merge.
